@@ -234,6 +234,11 @@ private:
   std::vector<SEFluidCircuitPath*> m_systemicResistancePaths;
   std::vector<SEFluidCircuitPath*> m_systemicCompliancePaths;
   std::vector<SEFluidCircuitPath*> m_tissueResistancePaths;
+  std::vector<SEFluidCircuitPath*> m_cerebralResistancePaths;
+  std::vector<SEFluidCircuitPath*> m_splanchnicResistancePaths;
+  std::vector<SEFluidCircuitPath*> m_extrasplanchnicResistancePaths;
+  std::vector<SEFluidCircuitPath*> m_myocardiumResistancePaths;
+  std::vector<SEFluidCircuitPath*> m_muscleResistancePaths;
 
   SEPatientActionCollection* m_PatientActions;
 };
