@@ -14,6 +14,9 @@ specific language governing permissions and limitations under the License.
 #include <biogears/cdm/CommonDataModel.h>
 #include <biogears/exports.h>
 
+#include <vector>
+#include <memory>
+
 #include <Eigen/Core>
 
 namespace biogears {
